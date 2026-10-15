@@ -38,9 +38,9 @@
 
 | 경험 | 내 역할 | 주요 작업 |
 |---|---|---|
-| **Theseus** | 팀장<br/>인프라 · 백엔드 | AI Core 연동과 실행 환경 구성<br/>Remote Workspace 서버 연결<br/>DB 자원·백그라운드 작업 운영 오류 대응 |
-| **싸피증권** | 팀장<br/>백엔드 · CI/CD | 회원·인증 API와 프록시 구성<br/>Compose 레이어 분리<br/>변경 서비스 선별 배포 |
-| **One-step** | 백엔드 | 회원·펫 성장·편지 API<br/>편지 매칭 정책과 수신 이력 처리 |
+| **[Theseus](https://github.com/sohnsw95/Theseus)** | 팀장<br/>인프라 · 백엔드 | AI Core 연동과 실행 환경 구성<br/>Remote Workspace 서버 연결<br/>DB 자원·백그라운드 작업 운영 오류 대응 |
+| **[싸피증권](https://github.com/sohnsw95/SSAFY-Stock)** | 팀장<br/>백엔드 · CI/CD | 회원·인증 API와 프록시 구성<br/>Compose 레이어 분리<br/>변경 서비스 선별 배포 |
+| **[One-step](https://github.com/sohnsw95/One-step)** | 백엔드 | 회원·펫 성장·편지 API<br/>편지 매칭 정책과 수신 이력 처리 |
 | **한국대학교육협의회** | 시스템 운영·유지보수<br/>관련 업무 | 사용자 요청 분류와 요구사항 조율<br/>공시 데이터 검증<br/>매뉴얼·교육자료 제작 |
 
 <br/>
@@ -50,7 +50,7 @@
 <tr>
 <td width="50%" valign="top">
 <a href="https://sukwoo-portfolio.vercel.app/#projects"><img src="assets/theseus.png" height="200" alt="Theseus AI 도구 목록 서비스 화면" /></a>
-<h3>01 · Theseus</h3>
+<h3><a href="https://github.com/sohnsw95/Theseus">01 · Theseus</a></h3>
 <b>AI Agent 플랫폼</b>
 <p>자연어로 AI 도구를 생성하고,<br/>원격 서버와 연동해 반복 업무를 자동화하는 서비스.</p>
 <p><b>팀장 · 인프라 · 백엔드</b><br/>Kafka·Redis·SSE 연동, 배포 환경 구성,<br/>Remote Workspace EC2 연결</p>
@@ -58,7 +58,7 @@
 </td>
 <td width="50%" valign="top">
 <a href="https://sukwoo-portfolio.vercel.app/#projects"><img src="assets/stock.png" height="200" alt="싸피증권 실시간 시세 및 모의투자 화면" /></a>
-<h3>02 · SSAFY-Stock</h3>
+<h3><a href="https://github.com/sohnsw95/SSAFY-Stock">02 · SSAFY-Stock</a></h3>
 <b>실시간 모의투자 서비스</b>
 <p>실시간 시세와 주문·체결,<br/>투자 커뮤니티를 제공하는 주식 모의투자 서비스.</p>
 <p><b>팀장 · 인프라 · 백엔드</b><br/>Gateway·DB·API 기준 정리,<br/>운영 레이어 분리와 변경 서비스 선별 배포</p>
@@ -68,7 +68,7 @@
 <tr>
 <td width="50%" valign="top">
 <p align="center"><a href="https://sukwoo-portfolio.vercel.app/#projects"><img src="assets/onestep.png" height="225" alt="One-step 일일 루틴 Figma 디자인 화면" /></a></p>
-<h3>03 · One-step</h3>
+<h3><a href="https://github.com/sohnsw95/One-step">03 · One-step</a></h3>
 <b>일상 회복 지원 서비스</b>
 <p>고립·은둔 청년의 일상 회복을 돕는<br/>행동 유도 기반 Android 서비스.</p>
 <p><b>백엔드</b><br/>회원·프로필·펫 성장 API,<br/>편지 전달·랜덤 매칭·금칙어 필터링 구현</p>

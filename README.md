@@ -1,124 +1,86 @@
-# 👋 안녕하세요, 개발자 손석우입니다.
+# 손석우 | Backend Developer
 
-**Backend Developer | Infrastructure · AI Services**
+### 사용자의 문제를 이해하고, 구현부터 운영까지 연결합니다.
 
-대학정보공시 시스템 운영·유지보수 업무를 경험하며,
-사용자의 요구를 이해하고 문제를 직접 기술로 해결하는 개발자로 성장하고자 SSAFY에 도전했습니다.
+대학정보공시 시스템의 사용자 요청과 데이터 품질을 다루던 경험을 바탕으로 개발 직무에 도전했습니다. 지금은 **Spring Boot 기반 API 개발, 비동기 서비스 연동, 배포 환경 구성**을 중심으로 경험을 쌓고 있습니다.
 
-현재는 **안정적으로 동작하는 백엔드 시스템**과
-**AI 서비스를 뒷받침하는 인프라 및 비동기 처리 구조**에 관심을 가지고 개발하고 있습니다.
+AI 모델을 연구하는 일보다 **AI 기능이 실제 서비스에서 동작하도록 서버와 운영 환경을 연결하는 일**에 관심이 있습니다.
 
----
+## 경험으로 보여드리는 강점
 
-## 🌱 About Me
+| 관점 | 제가 해온 일 |
+|---|---|
+| 사용자와 운영 | 대학정보공시 시스템의 요청 접수·요구사항 조율, 데이터 검증, 매뉴얼·교육자료 작성 |
+| 구현과 배포 | 도메인 API 개발, Kafka·Redis 기반 서비스 연동, Docker·Jenkins·Nginx 배포 환경 구성 |
+| 팀의 작업 기준 | 프로젝트 2회 팀장으로 API·문서·이슈·일정을 정리하고 파트 간 협업 조율 |
 
-- 🎓 SSAFY 14기 수료
-- 💻 Java · Spring Boot 기반 백엔드 개발
-- 🐳 Docker · Jenkins · Nginx 기반 배포 환경 구축
-- 🤝 프로젝트 팀장 및 반장으로 일정 관리와 협업 주도
-- 🌱 작은 단위로 구현하고 검증하며 문제를 해결하는 개발자
+## 대표 프로젝트
 
----
+### [Theseus](https://github.com/sohnsw95/Theseus) · AI Agent 플랫폼
 
-## 🚀 Experience
+자연어로 AI 도구를 생성하고 원격 서버와 연동해 팀의 반복 업무를 자동화하는 서비스입니다.
 
-### 🏢 한국대학교육협의회
-**대학정보공시 시스템 운영·유지보수 | 2020.12 ~ 2023.06**
+**팀장 · 인프라 · 백엔드**
 
-- 대학정보공시 통합 시스템 및 대학알리미 운영
-- 사용자 요청 접수·분류 및 요구사항 조율
-- 공시 데이터 검증 및 품질 점검
-- 사용자 매뉴얼·연수자료 제작 및 교육
+- Docker Compose·Jenkins·Nginx 기반 배포 환경과 변경 서비스 선별 배포 구성
+- Spring Boot API와 FastAPI AI Core 간 Kafka 연동, Redis 상태 저장·SSE 전달 흐름 구현
+- Remote Workspace로 Theseus와 싸피증권의 EC2 환경 연결
 
-### 🎓 SSAFY 14기
-**Backend · Infrastructure · Team Leadership**
+`Spring Boot` `Kafka` `Redis` `Docker` `Jenkins` `Nginx`
 
-- Python 기반 알고리즘 학습 및 문제 해결
-- Spring Boot 기반 API 개발과 데이터베이스 설계
-- Kafka · Redis 기반 비동기 처리 및 실시간 서비스 개발
-- Docker · Jenkins 기반 CI/CD 환경 구축
-- 프로젝트 3회 중 2회 팀장으로 일정과 협업 관리
-- 공통 프로젝트 **3등**, 특화·자율 프로젝트 각각 **1등**
-- 자율 프로젝트 **최종 발표회 본선 진출**
+### [SSAFY-Stock — 싸피증권](https://github.com/sohnsw95/SSAFY-Stock) · 실시간 모의투자
 
----
+실시간 시세와 주문·체결, 투자 커뮤니티를 제공하는 주식 모의투자 서비스입니다.
 
-## 🔥 Featured Projects
+**팀장 · 백엔드 · 인프라**
 
-### 🧠 Theseus — AI Agent Platform
+- Gateway 인증·라우팅, DB 설계와 API·예외 처리 기준 정리
+- Docker Compose 운영 레이어 분리 및 Jenkins 기반 변경 서비스 선별 배포 구성
+- 특화 프로젝트 이후 Theseus의 Remote Workspace 연동 대상으로 후속 개발
 
-사용자 요청에 필요한 Tool을 생성하고 재사용하는 AI Agent 플랫폼
+`Spring Boot` `Kafka` `Redis` `Docker Compose` `Jenkins`
 
-**역할: 팀장 · Infrastructure · Backend**
+### [One-step](https://github.com/sohnsw95/One-step) · 일상 회복 지원
 
-- Docker Compose · Jenkins · Nginx 기반 배포 및 CI/CD 환경 구축
-- Spring Boot API 서버와 FastAPI 기반 AI Core의 서비스 연동
-- Kafka 기반 비동기 처리 및 Redis 기반 상태 관리
-- 사용자 권한·승인 처리와 SSE 기반 진행 상태 전달
-- 팀 일정 및 산출물 관리
+고립·은둔 청년의 일상 회복을 돕는 행동 유도 기반 서비스입니다.
 
-🏆 **SSAFY 자율 프로젝트 1등 · 최종 발표회 본선 진출**
+**백엔드**
 
-`Spring Boot` `FastAPI` `Kafka` `Redis` `Docker` `Jenkins` `Nginx`
+- 회원·프로필 및 펫 성장 API 개발
+- 편지 전달·랜덤 매칭과 금칙어 필터링 구현
+- API 명세와 예외 처리 기준 정리
 
-### 📈 싸피증권 — 실시간 모의투자 서비스
+`Java` `Spring Boot` `JPA`
 
-실시간 주식 거래와 커뮤니티 기능을 제공하는 모의투자 서비스
+> 세 프로젝트의 원본 코드 저장소는 현재 비공개입니다. 위 설명은 서비스 전체 소개와 제 담당 업무를 구분해 작성했습니다.
 
-**역할: 팀장 · Backend · Infrastructure**
+## 경력과 교육
 
-- 커뮤니티 CRUD 및 사용자 권한 처리
-- 배지 기능 개발 및 데이터베이스 설계
-- Kafka · Redis · WebSocket · SSE를 활용한 실시간 서비스 구현
-- Docker · Jenkins · Nginx 기반 배포 환경 구축
-- 팀 개발 일정 관리 및 협업 조율
+- **한국대학교육협의회 | 2020.12–2023.06**
+  대학정보공시 통합 시스템·대학알리미 운영 지원, 사용자 요청·데이터 검증·교육 업무
+- **SSAFY 14기 | 2025.07–2026.06 수료**
+  알고리즘 학습 및 팀 프로젝트 3회, 프로젝트 팀장 2회, 반장·CA 활동
+- **남서울대학교 | 2021.02 졸업**
+  경영학과 · 컴퓨터소프트웨어학과 복수전공, 경영학사 · 공학사
 
-🏆 **SSAFY 특화 프로젝트 1등**
+## 팀 수상
 
-`Java` `Spring Boot` `MySQL` `Kafka` `Redis` `WebSocket` `Docker`
+| 프로젝트 | 수상 |
+|---|---|
+| Theseus | 자율 프로젝트 우수상 — 서울 3반 1등 · 프로젝트 전시발표회 발표부문 우수상 |
+| SSAFY-Stock | 특화 프로젝트 우수상 — 서울 5반 1등 |
+| One-step | 공통 프로젝트 우수상 — 서울 5반 3등 |
 
-### 🌱 Onestep
+Theseus는 116개 팀 중 6개 팀이 선발된 최종 발표회 본선에 진출했습니다.
 
-펫 성장과 편지 기능을 제공하는 서비스
+## 기술과 학습 방향
 
-**역할: Backend**
+- **개발·운영에 활용:** Java, Spring Boot, JPA, SQL, Kafka, Redis, SSE, Docker, Jenkins, Nginx, AWS EC2, Linux
+- **서비스 연동 경험:** FastAPI AI Core, PostgreSQL·pgvector, AWS RDS
+- **계속 깊이를 쌓는 주제:** 비동기 처리의 정합성, 장애 진단과 복구, AI 서비스의 실행 상태 관리
 
-- 회원 및 프로필 API 개발
-- 펫 성장 기능 구현
-- 편지 및 금칙어 처리 API 개발
-- Spring Boot · JPA 기반 데이터 처리
+작은 단위로 구현하고 오류를 확인하며 이해를 쌓습니다. AI 도구를 활용할 때도 생성 결과를 그대로 성과로 삼기보다, 변경 이유와 동작을 직접 설명하고 검증할 수 있는 개발을 지향합니다.
 
-🏆 **SSAFY 공통 프로젝트 3등**
+## Contact
 
-`Java` `Spring Boot` `JPA` `MySQL`
-
----
-
-## 🛠 Tech Stack
-
-**Languages**
-`Java` `Python` `SQL`
-
-**Backend**
-`Spring Boot` `Spring Data JPA` `FastAPI` `REST API`
-
-**Messaging / Realtime**
-`Kafka` `Redis` `SSE` `WebSocket`
-
-**Database**
-`MySQL` `PostgreSQL`
-
-**Infrastructure / DevOps**
-`Docker` `Docker Compose` `Jenkins` `Nginx` `AWS EC2` `Linux`
-
-**Collaboration**
-`Git` `GitLab` `Jira` `Notion` `Mattermost`
-
----
-
-## 📫 Contact
-
-- GitHub: [github.com/sohnsw95](https://github.com/sohnsw95)
-- Email: [sohnsw95@naver.com](mailto:sohnsw95@naver.com)
-
-> **사용자의 요구를 이해하고, 구현부터 운영까지 책임지는 개발자를 지향합니다.**
+[GitHub](https://github.com/sohnsw95) · [sohnsw95@naver.com](mailto:sohnsw95@naver.com)

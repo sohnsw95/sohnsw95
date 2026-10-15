@@ -113,15 +113,11 @@
 <tr><td align="center" width="88"><img src="assets/tech/java.svg" width="44" height="44" alt="Java"/><br/><sub>Java</sub></td><td align="center" width="88"><img src="assets/tech/python.svg" width="44" height="44" alt="Python"/><br/><sub>Python</sub></td><td align="center" width="88"><img src="assets/tech/spring.svg" width="44" height="44" alt="Spring Boot"/><br/><sub>Spring Boot</sub></td><td align="center" width="88"><img src="assets/tech/fastapi.svg" width="44" height="44" alt="FastAPI"/><br/><sub>FastAPI</sub></td></tr>
 </table>
 
-<sub>JPA · REST API · Python 알고리즘 학습 및 AI Core 연동·수정</sub>
-
 #### Data & Messaging
 
 <table>
 <tr><td align="center" width="88"><img src="assets/tech/mysql.svg" width="44" height="44" alt="MySQL"/><br/><sub>MySQL</sub></td><td align="center" width="88"><img src="assets/tech/postgres.svg" width="44" height="44" alt="PostgreSQL"/><br/><sub>PostgreSQL</sub></td><td align="center" width="88"><img src="assets/tech/kafka.svg" width="44" height="44" alt="Kafka"/><br/><sub>Kafka</sub></td><td align="center" width="88"><img src="assets/tech/redis.svg" width="44" height="44" alt="Redis"/><br/><sub>Redis</sub></td></tr>
 </table>
-
-<sub>SQL · 비동기 요청 · 작업 상태 저장</sub>
 
 #### Infrastructure
 
@@ -130,18 +126,12 @@
 <tr><td align="center" width="88"><img src="assets/tech/linux.svg" width="44" height="44" alt="Linux"/><br/><sub>Linux</sub></td></tr>
 </table>
 
-<sub>EC2 · Docker Compose · RDS 연동</sub>
-
 #### Development & Collaboration
 
 <table>
 <tr><td align="center" width="88"><img src="assets/tech/git.svg" width="44" height="44" alt="Git"/><br/><sub>Git</sub></td><td align="center" width="88"><img src="assets/tech/github.svg" width="44" height="44" alt="GitHub"/><br/><sub>GitHub</sub></td><td align="center" width="88"><img src="assets/tech/gitlab.svg" width="44" height="44" alt="GitLab"/><br/><sub>GitLab</sub></td><td align="center" width="88"><img src="assets/tech/swagger.svg" width="44" height="44" alt="Swagger"/><br/><sub>Swagger</sub></td></tr>
 <tr><td align="center" width="88"><img src="assets/tech/jira.svg" width="44" height="44" alt="Jira"/><br/><sub>Jira</sub></td><td align="center" width="88"><img src="assets/tech/notion.svg" width="44" height="44" alt="Notion"/><br/><sub>Notion</sub></td><td align="center" width="88"><img src="assets/tech/mattermost.svg" width="44" height="44" alt="Mattermost"/><br/><sub>Mattermost</sub></td></tr>
 </table>
-
-ChatGPT · Claude · Codex는 기획·문서·코드 분석과 구현·테스트 작성 보조에 활용했습니다. AI가 제안한 내용과 실제 반영·확인한 결과를 구분해 기록합니다.
-
-[알고리즘 풀이](https://github.com/sohnsw95/algorithm) · [학습 기록](https://github.com/sohnsw95/TIL)
 
 <br/>
 

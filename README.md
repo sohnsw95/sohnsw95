@@ -13,25 +13,38 @@
 
 안녕하세요. **API 개발과 배포·운영을 함께 경험한 백엔드 개발자 손석우입니다.**
 
-대학정보공시 시스템을 운영하며 사용자 요청을 정리하고 데이터 오류를 확인했습니다. 이후에는 요청을 전달하는 데서 나아가 직접 기능을 구현하고 싶어 개발을 시작했습니다. 프로젝트에서는 회원·편지 API를 만들고, 서비스 간 연동과 배포 환경을 구성하며, 실행 중 발생하는 오류를 추적했습니다.
+대학정보공시 시스템을 운영하며 사용자 요청을 정리하고 데이터 품질을 점검했습니다.<br/>
+이후 사용자에게 필요한 기능을 직접 만들고 싶어 개발을 시작했습니다.
 
-제가 다뤄온 문제는 다음과 같습니다.
+지금은 **API 구현부터 서비스 연동, 배포·운영까지** 경험을 넓혀가고 있습니다.
 
-- **이미 받은 편지가 다시 오는 문제:** 수신 이력을 확인해 DB 조회 단계에서 매칭 후보를 제외했습니다.
-- **AI 작업 중 DB 연결이 고갈되는 문제:** 처리할 데이터가 없는 경로의 트랜잭션 종료 누락을 찾아 rollback과 세션 정리를 보완했습니다.
-- **서비스마다 다른 배포 조건:** Docker Compose를 역할별로 나누고 Jenkins에서 변경된 서비스를 골라 배포하도록 구성했습니다.
-- **서버는 켜져 있지만 시세가 멈춘 상황:** 수신 로그부터 Redis·Kafka·WebSocket까지 구간을 나눠 확인하고 마켓 서버 재시작 후 화면 갱신을 확인했습니다.
+### 주로 다뤄온 주제
+
+- **사용자의 일상과 요구를 서비스 기능으로 구현하기**<br/>
+  일상 회복을 돕는 회원·펫 성장·편지 교류 기능과 모의투자 서비스의 회원·인증 API를 개발했습니다.
+
+- **AI 기능을 서비스의 실행 흐름에 연결하기**<br/>
+  API와 AI Core 사이의 비동기 연동, 작업 상태 전달, 원격 작업공간 연결을 다뤘습니다.
+
+- **여러 서비스를 함께 배포하고 운영할 환경 만들기**<br/>
+  서비스별 실행 환경을 구성하고, 변경된 서비스를 선별해 배포하는 CI/CD 흐름을 만들었습니다.
+
+- **팀이 같은 기준으로 개발할 수 있도록 정리하기**<br/>
+  팀장으로 API·문서·이슈·일정을 정리하고, 팀원들과 요구사항과 진행 상황을 조율했습니다.
+
+<br/>
 
 ## 경험 한눈에 보기
 
-| 경험 | 내 역할 | 다룬 문제와 작업 | 기술·키워드 |
-|---|---|---|---|
-| **Theseus** | 팀장 · 인프라 · 백엔드 | AI Core의 DB 연결 고갈 대응, 다중 워커의 Consumer·Scheduler 중복 실행 설정 수정, Remote Workspace 서버 연결 | Spring Boot · FastAPI · Kafka · PostgreSQL · Docker |
-| **싸피증권** | 팀장 · 백엔드 · CI/CD | 회원·인증 API, 인증 쿠키·프록시 경로 수정, Compose 레이어 분리와 변경 서비스 선별 배포 | Spring Boot · Jenkins · Docker Compose · Nginx |
-| **One-step** | 백엔드 | 회원·펫 성장·편지 API, 수신 이력을 반영한 편지 매칭과 DB 조회 조건 개선 | Java · Spring Boot · JPA · SQL |
-| **한국대학교육협의회** | 시스템 운영·유지보수 관련 업무 | 사용자 요청 분류·요구사항 조율, 공시 데이터 검증, 매뉴얼과 교육자료 제작 | 서비스 운영 · 데이터 품질 · 사용자 소통 |
+| 경험 | 내 역할 | 주요 작업 |
+|---|---|---|
+| **Theseus** | 팀장<br/>인프라 · 백엔드 | AI Core 연동과 실행 환경 구성<br/>Remote Workspace 서버 연결<br/>DB 자원·백그라운드 작업 운영 오류 대응 |
+| **싸피증권** | 팀장<br/>백엔드 · CI/CD | 회원·인증 API와 프록시 구성<br/>Compose 레이어 분리<br/>변경 서비스 선별 배포 |
+| **One-step** | 백엔드 | 회원·펫 성장·편지 API<br/>편지 매칭 정책과 수신 이력 처리 |
+| **한국대학교육협의회** | 시스템 운영·유지보수<br/>관련 업무 | 사용자 요청 분류와 요구사항 조율<br/>공시 데이터 검증<br/>매뉴얼·교육자료 제작 |
 
-## 02 / Selected work
+<br/>
+## Projects
 
 <table>
 <tr>
@@ -39,7 +52,7 @@
 <a href="https://sukwoo-portfolio.vercel.app/#projects"><img src="assets/theseus.png" height="200" alt="Theseus AI 도구 목록 서비스 화면" /></a>
 <h3>01 · Theseus</h3>
 <b>AI Agent 플랫폼</b>
-<p>자연어로 AI 도구를 생성하고 원격 서버와 연동해 반복 업무를 자동화하는 서비스.</p>
+<p>자연어로 AI 도구를 생성하고,<br/>원격 서버와 연동해 반복 업무를 자동화하는 서비스.</p>
 <p><b>팀장 · 인프라 · 백엔드</b><br/>Kafka·Redis·SSE 연동, 배포 환경 구성,<br/>Remote Workspace EC2 연결</p>
 <p><code>Spring Boot</code> <code>Kafka</code> <code>Docker</code></p>
 </td>
@@ -47,7 +60,7 @@
 <a href="https://sukwoo-portfolio.vercel.app/#projects"><img src="assets/stock.png" height="200" alt="싸피증권 실시간 시세 및 모의투자 화면" /></a>
 <h3>02 · SSAFY-Stock</h3>
 <b>실시간 모의투자 서비스</b>
-<p>실시간 시세와 주문·체결, 투자 커뮤니티를 제공하는 주식 모의투자 서비스.</p>
+<p>실시간 시세와 주문·체결,<br/>투자 커뮤니티를 제공하는 주식 모의투자 서비스.</p>
 <p><b>팀장 · 인프라 · 백엔드</b><br/>Gateway·DB·API 기준 정리,<br/>운영 레이어 분리와 변경 서비스 선별 배포</p>
 <p><code>Spring Boot</code> <code>Redis</code> <code>Jenkins</code></p>
 </td>
@@ -57,19 +70,21 @@
 <p align="center"><a href="https://sukwoo-portfolio.vercel.app/#projects"><img src="assets/onestep.png" height="225" alt="One-step 일일 루틴 Figma 디자인 화면" /></a></p>
 <h3>03 · One-step</h3>
 <b>일상 회복 지원 서비스</b>
-<p>고립·은둔 청년의 일상 회복을 돕는 행동 유도 기반 Android 서비스.</p>
+<p>고립·은둔 청년의 일상 회복을 돕는<br/>행동 유도 기반 Android 서비스.</p>
 <p><b>백엔드</b><br/>회원·프로필·펫 성장 API,<br/>편지 전달·랜덤 매칭·금칙어 필터링 구현</p>
 <p><code>Java</code> <code>Spring Boot</code> <code>JPA</code></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://sukwoo-portfolio.vercel.app/"><img src="assets/portfolio.svg" width="100%" alt="공개 포트폴리오 — 화면과 구조, 문제를 해결한 과정까지" /></a>
 <h3>프로젝트를 더 자세히</h3>
-<p>서비스 화면, 시스템 구조, 담당 업무와 문제 해결 과정을 공개 포트폴리오에서 확인하실 수 있습니다.</p>
-<p>AI 모델 연구보다 AI 기능이 실제 서비스에서 동작하도록 서버와 운영 환경을 연결하는 일에 관심이 있습니다.</p>
+<p>서비스 화면과 시스템 구조,<br/>담당 업무와 문제 해결 과정을 담았습니다.</p>
+<p>AI 기능을 실제 서비스에 연결하고,<br/>서버와 운영 환경을 구성한 경험을 소개합니다.</p>
 <p><a href="https://sukwoo-portfolio.vercel.app/"><b>포트폴리오 방문하기 ↗</b></a></p>
 </td>
 </tr>
 </table>
+
+<br/>
 
 ## 🚀 Experience
 
@@ -92,13 +107,17 @@
 - Docker · Jenkins 기반 CI/CD 환경 구축
 - 프로젝트 3회 중 2회 팀장으로 일정 관리와 협업 조율
 
+<br/>
+
 ## 팀 수상
 
 | 프로젝트 | 수상 |
 |---|---|
-| Theseus | 자율 프로젝트 우수상 — 프로젝트 전시발표회 발표부문 우수상 |
+| Theseus | 자율 프로젝트 우수상<br/>프로젝트 전시발표회 발표부문 우수상 |
 | SSAFY-Stock | 특화 프로젝트 우수상 |
 | One-step | 공통 프로젝트 우수상 |
+
+<br/>
 
 ## 🛠 Tech & Tools
 
@@ -156,6 +175,8 @@
 </table>
 
 <sub>MCP</sub>
+
+<br/>
 
 ## Contact
 

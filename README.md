@@ -115,6 +115,11 @@
 
 - **개발·운영에 활용:** Java, Spring Boot, JPA, SQL, Kafka, Redis, SSE, Docker, Jenkins, Nginx, AWS EC2, Linux
 - **서비스 연동 경험:** FastAPI AI Core, PostgreSQL·pgvector, AWS RDS
+- **협업·일정 관리:** Jira, Notion, Mattermost
+- **코드·리뷰 관리:** Git, GitLab, GitHub
+- **API 문서·테스트:** Swagger
+- **AI 작업 보조:** ChatGPT, Claude, Codex — 기획, 문서 작성, 코드 분석, 구현·테스트 보조
+- **도구 연동:** MCP 활용
 - **계속 깊이를 쌓는 주제:** 비동기 처리의 정합성, 장애 진단과 복구, AI 서비스의 실행 상태 관리
 
 작은 단위로 구현하고 오류를 확인하며 이해를 쌓습니다. AI 도구를 활용할 때도 생성 결과를 그대로 성과로 삼기보다, 변경 이유와 동작을 직접 설명하고 검증할 수 있는 개발을 지향합니다.

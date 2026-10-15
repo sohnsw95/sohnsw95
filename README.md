@@ -9,17 +9,27 @@
 
 <p align="center"><a href="https://sukwoo-portfolio.vercel.app/">sukwoo-portfolio.vercel.app</a></p>
 
-대학정보공시 시스템의 사용자 요청과 데이터 품질을 다루던 경험을 바탕으로 개발 직무에 도전했습니다. **Spring Boot 기반 API 개발부터 Kafka·Redis 연동, Docker·Jenkins 배포 환경까지**, 서비스가 연결되고 운영되는 흐름에 관심을 두고 있습니다.
+## 소개
 
-## 01 / What I bring
+안녕하세요. **API 개발과 배포·운영을 함께 경험한 백엔드 개발자 손석우입니다.**
 
-<table>
-<tr>
-<td width="33%" valign="top"><b>사용자와 운영</b><br/><br/>사용자 요청을 정리하고,<br/>데이터와 업무 기준을 확인한 경험</td>
-<td width="33%" valign="top"><b>구현과 배포</b><br/><br/>API 개발과 서비스 연동을<br/>배포·운영 환경으로 연결한 경험</td>
-<td width="33%" valign="top"><b>함께 일하는 기준</b><br/><br/>팀장으로 API·문서·이슈·일정을<br/>정리하고 협업을 조율한 경험</td>
-</tr>
-</table>
+대학정보공시 시스템을 운영하며 사용자 요청을 정리하고 데이터 오류를 확인했습니다. 이후에는 요청을 전달하는 데서 나아가 직접 기능을 구현하고 싶어 개발을 시작했습니다. 프로젝트에서는 회원·편지 API를 만들고, 서비스 간 연동과 배포 환경을 구성하며, 실행 중 발생하는 오류를 추적했습니다.
+
+제가 다뤄온 문제는 다음과 같습니다.
+
+- **이미 받은 편지가 다시 오는 문제:** 수신 이력을 확인해 DB 조회 단계에서 매칭 후보를 제외했습니다.
+- **AI 작업 중 DB 연결이 고갈되는 문제:** 처리할 데이터가 없는 경로의 트랜잭션 종료 누락을 찾아 rollback과 세션 정리를 보완했습니다.
+- **서비스마다 다른 배포 조건:** Docker Compose를 역할별로 나누고 Jenkins에서 변경된 서비스를 골라 배포하도록 구성했습니다.
+- **서버는 켜져 있지만 시세가 멈춘 상황:** 수신 로그부터 Redis·Kafka·WebSocket까지 구간을 나눠 확인하고 마켓 서버 재시작 후 화면 갱신을 확인했습니다.
+
+## 경험 한눈에 보기
+
+| 경험 | 내 역할 | 다룬 문제와 작업 | 기술·키워드 |
+|---|---|---|---|
+| **Theseus** | 팀장 · 인프라 · 백엔드 | AI Core의 DB 연결 고갈 대응, 다중 워커의 Consumer·Scheduler 중복 실행 설정 수정, Remote Workspace 서버 연결 | Spring Boot · FastAPI · Kafka · PostgreSQL · Docker |
+| **싸피증권** | 팀장 · 백엔드 · CI/CD | 회원·인증 API, 인증 쿠키·프록시 경로 수정, Compose 레이어 분리와 변경 서비스 선별 배포 | Spring Boot · Jenkins · Docker Compose · Nginx |
+| **One-step** | 백엔드 | 회원·펫 성장·편지 API, 수신 이력을 반영한 편지 매칭과 DB 조회 조건 개선 | Java · Spring Boot · JPA · SQL |
+| **한국대학교육협의회** | 시스템 운영·유지보수 관련 업무 | 사용자 요청 분류·요구사항 조율, 공시 데이터 검증, 매뉴얼과 교육자료 제작 | 서비스 운영 · 데이터 품질 · 사용자 소통 |
 
 ## 02 / Selected work
 
@@ -32,7 +42,6 @@
 <p>자연어로 AI 도구를 생성하고 원격 서버와 연동해 반복 업무를 자동화하는 서비스.</p>
 <p><b>팀장 · 인프라 · 백엔드</b><br/>Kafka·Redis·SSE 연동, 배포 환경 구성,<br/>Remote Workspace EC2 연결</p>
 <p><code>Spring Boot</code> <code>Kafka</code> <code>Docker</code></p>
-<a href="https://sukwoo-portfolio.vercel.app/#projects">프로젝트 살펴보기 ↗</a> · <a href="https://github.com/sohnsw95/Theseus">Code (Private)</a>
 </td>
 <td width="50%" valign="top">
 <a href="https://sukwoo-portfolio.vercel.app/#projects"><img src="assets/stock.png" height="200" alt="싸피증권 실시간 시세 및 모의투자 화면" /></a>
@@ -41,7 +50,6 @@
 <p>실시간 시세와 주문·체결, 투자 커뮤니티를 제공하는 주식 모의투자 서비스.</p>
 <p><b>팀장 · 인프라 · 백엔드</b><br/>Gateway·DB·API 기준 정리,<br/>운영 레이어 분리와 변경 서비스 선별 배포</p>
 <p><code>Spring Boot</code> <code>Redis</code> <code>Jenkins</code></p>
-<a href="https://sukwoo-portfolio.vercel.app/#projects">프로젝트 살펴보기 ↗</a> · <a href="https://github.com/sohnsw95/SSAFY-Stock">Code (Private)</a>
 </td>
 </tr>
 <tr>
@@ -52,8 +60,6 @@
 <p>고립·은둔 청년의 일상 회복을 돕는 행동 유도 기반 Android 서비스.</p>
 <p><b>백엔드</b><br/>회원·프로필·펫 성장 API,<br/>편지 전달·랜덤 매칭·금칙어 필터링 구현</p>
 <p><code>Java</code> <code>Spring Boot</code> <code>JPA</code></p>
-<a href="https://sukwoo-portfolio.vercel.app/#projects">프로젝트 살펴보기 ↗</a> · <a href="https://github.com/sohnsw95/One-step">Code (Private)</a>
-<p><sub>이미지: Figma 디자인 화면</sub></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://sukwoo-portfolio.vercel.app/"><img src="assets/portfolio.svg" width="100%" alt="공개 포트폴리오 — 화면과 구조, 문제를 해결한 과정까지" /></a>
@@ -61,7 +67,6 @@
 <p>서비스 화면, 시스템 구조, 담당 업무와 문제 해결 과정을 공개 포트폴리오에서 확인하실 수 있습니다.</p>
 <p>AI 모델 연구보다 AI 기능이 실제 서비스에서 동작하도록 서버와 운영 환경을 연결하는 일에 관심이 있습니다.</p>
 <p><a href="https://sukwoo-portfolio.vercel.app/"><b>포트폴리오 방문하기 ↗</b></a></p>
-<p><sub>원본 코드 저장소 3개는 비공개입니다.<br/>프로젝트 설명과 개인 담당 업무는 구분했습니다.</sub></p>
 </td>
 </tr>
 </table>

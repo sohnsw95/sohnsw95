@@ -26,7 +26,7 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://sukwoo-portfolio.vercel.app/#projects"><img src="assets/theseus.png" width="100%" alt="Theseus AI 도구 목록 서비스 화면" /></a>
+<a href="https://sukwoo-portfolio.vercel.app/#projects"><img src="assets/theseus.png" height="200" alt="Theseus AI 도구 목록 서비스 화면" /></a>
 <h3>01 · Theseus</h3>
 <b>AI Agent 플랫폼</b>
 <p>자연어로 AI 도구를 생성하고 원격 서버와 연동해 반복 업무를 자동화하는 서비스.</p>
@@ -35,7 +35,7 @@
 <a href="https://sukwoo-portfolio.vercel.app/#projects">프로젝트 살펴보기 ↗</a> · <a href="https://github.com/sohnsw95/Theseus">Code (Private)</a>
 </td>
 <td width="50%" valign="top">
-<a href="https://sukwoo-portfolio.vercel.app/#projects"><img src="assets/stock.png" width="100%" alt="싸피증권 실시간 시세 및 모의투자 화면" /></a>
+<a href="https://sukwoo-portfolio.vercel.app/#projects"><img src="assets/stock.png" height="200" alt="싸피증권 실시간 시세 및 모의투자 화면" /></a>
 <h3>02 · SSAFY-Stock</h3>
 <b>실시간 모의투자 서비스</b>
 <p>실시간 시세와 주문·체결, 투자 커뮤니티를 제공하는 주식 모의투자 서비스.</p>

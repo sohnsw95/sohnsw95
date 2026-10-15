@@ -88,7 +88,7 @@
 
 ## 🚀 Experience
 
-### 🏢 [대학알리미](https://www.academyinfo.go.kr/index.do)
+### 🏢 한국대학교육협의회
 
 **대학정보공시 시스템 운영·유지보수 | 2020.12 ~ 2023.06**
 

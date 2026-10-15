@@ -88,8 +88,11 @@
 
 **2025.07 ~ 2026.06 · Backend · Infrastructure · Team Leadership**
 
-- Python 기반 알고리즘 학습 및 문제 해결
-- 프로젝트 3회 중 2회 팀장으로 일정 관리와 협업 조율
+- Python 알고리즘 학습과 Java·Spring Boot 기반 백엔드 개발
+- 사용자 도메인 API·DB 설계, Kafka·Redis 기반 비동기 요청과 상태 관리 구현
+- Docker·Jenkins·Nginx를 활용한 서비스 배포 및 운영 환경 구성
+- 프로젝트 3회 중 2회 팀장으로 일정 관리와 파트 간 협업 조율
+- 1학기 반장 · 2학기 반장 · CA 등 자치회 역할 3회 수행
 
 <br/>
 

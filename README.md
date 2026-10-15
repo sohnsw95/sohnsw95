@@ -100,29 +100,62 @@
 | SSAFY-Stock | 특화 프로젝트 우수상 |
 | One-step | 공통 프로젝트 우수상 |
 
-## 🛠 Tech & Focus
+## 🛠 Tech & Tools
 
-<p>
-<img src="https://img.shields.io/badge/Java-E76F00?style=flat-square" alt="Java" />
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot" />
-<img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&amp;logo=apachekafka" alt="Kafka" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&amp;logo=redis&amp;logoColor=white" alt="Redis" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&amp;logo=jenkins&amp;logoColor=white" alt="Jenkins" />
-<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&amp;logo=nginx&amp;logoColor=white" alt="Nginx" />
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square" alt="AWS" />
-</p>
+#### Backend
 
-- **개발·운영에 활용:** Java, Spring Boot, JPA, SQL, Kafka, Redis, SSE, Docker, Jenkins, Nginx, AWS EC2, Linux
-- **서비스 연동 경험:** FastAPI AI Core, PostgreSQL·pgvector, AWS RDS
-- **협업·일정 관리:** Jira, Notion, Mattermost
-- **코드·리뷰 관리:** Git, GitLab, GitHub
-- **API 문서·테스트:** Swagger
-- **AI 작업 보조:** ChatGPT, Claude, Codex — 기획, 문서 작성, 코드 분석, 구현·테스트 보조
-- **도구 연동:** MCP 활용
-- **계속 깊이를 쌓는 주제:** 비동기 처리의 정합성, 장애 진단과 복구, AI 서비스의 실행 상태 관리
+<table>
+<tr>
+<td align="center" width="88"><img src="assets/tech/java.svg" width="44" height="44" alt="Java"/><br/><sub>Java</sub></td>
+<td align="center" width="88"><img src="assets/tech/spring.svg" width="44" height="44" alt="Spring Boot"/><br/><sub>Spring Boot</sub></td>
+<td align="center" width="88"><img src="assets/tech/fastapi.svg" width="44" height="44" alt="FastAPI"/><br/><sub>FastAPI</sub></td>
+<td align="center" width="88"><img src="assets/tech/postgres.svg" width="44" height="44" alt="PostgreSQL"/><br/><sub>PostgreSQL</sub></td>
+<td align="center" width="88"><img src="assets/tech/kafka.svg" width="44" height="44" alt="Kafka"/><br/><sub>Kafka</sub></td>
+<td align="center" width="88"><img src="assets/tech/redis.svg" width="44" height="44" alt="Redis"/><br/><sub>Redis</sub></td>
+<td align="center" width="88"><img src="assets/tech/swagger.svg" width="44" height="44" alt="Swagger"/><br/><sub>Swagger</sub></td>
+</tr>
+</table>
 
-작은 단위로 구현하고 오류를 확인하며 이해를 쌓습니다. AI 도구를 활용할 때도 생성 결과를 그대로 성과로 삼기보다, 변경 이유와 동작을 직접 설명하고 검증할 수 있는 개발을 지향합니다.
+<sub>JPA · SQL · SSE · pgvector</sub>
+
+#### Infrastructure
+
+<table>
+<tr>
+<td align="center" width="88"><img src="assets/tech/docker.svg" width="44" height="44" alt="Docker"/><br/><sub>Docker</sub></td>
+<td align="center" width="88"><img src="assets/tech/jenkins.svg" width="44" height="44" alt="Jenkins"/><br/><sub>Jenkins</sub></td>
+<td align="center" width="88"><img src="assets/tech/nginx.svg" width="44" height="44" alt="Nginx"/><br/><sub>Nginx</sub></td>
+<td align="center" width="88"><img src="assets/tech/aws.svg" width="44" height="44" alt="AWS"/><br/><sub>AWS</sub></td>
+<td align="center" width="88"><img src="assets/tech/linux.svg" width="44" height="44" alt="Linux"/><br/><sub>Linux</sub></td>
+</tr>
+</table>
+
+<sub>EC2 · RDS · Docker Compose</sub>
+
+#### Collaboration
+
+<table>
+<tr>
+<td align="center" width="88"><img src="assets/tech/git.svg" width="44" height="44" alt="Git"/><br/><sub>Git</sub></td>
+<td align="center" width="88"><img src="assets/tech/github.svg" width="44" height="44" alt="GitHub"/><br/><sub>GitHub</sub></td>
+<td align="center" width="88"><img src="assets/tech/gitlab.svg" width="44" height="44" alt="GitLab"/><br/><sub>GitLab</sub></td>
+<td align="center" width="88"><img src="assets/tech/jira.svg" width="44" height="44" alt="Jira"/><br/><sub>Jira</sub></td>
+<td align="center" width="88"><img src="assets/tech/notion.svg" width="44" height="44" alt="Notion"/><br/><sub>Notion</sub></td>
+<td align="center" width="88"><img src="assets/tech/mattermost.svg" width="44" height="44" alt="Mattermost"/><br/><sub>Mattermost</sub></td>
+</tr>
+</table>
+
+#### AI Tools
+
+<table>
+<tr>
+<td align="center" width="88"><img src="assets/tech/chatgpt.svg" width="44" height="44" alt="ChatGPT"/><br/><sub>ChatGPT</sub></td>
+<td align="center" width="88"><img src="assets/tech/claude.svg" width="44" height="44" alt="Claude"/><br/><sub>Claude</sub></td>
+<td align="center" width="88"><img src="assets/tech/codex.svg" width="44" height="44" alt="Codex"/><br/><sub>Codex</sub></td>
+</tr>
+</table>
+
+<sub>MCP</sub>
 
 ## Contact
 

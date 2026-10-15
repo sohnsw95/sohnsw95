@@ -41,7 +41,7 @@
 | **[Theseus](https://github.com/sohnsw95/Theseus)** | 팀장<br/>인프라 · 백엔드 | AI Core 연동과 실행 환경 구성<br/>Remote Workspace 서버 연결<br/>DB 자원·백그라운드 작업 운영 오류 대응 |
 | **[싸피증권](https://github.com/sohnsw95/SSAFY-Stock)** | 팀장<br/>백엔드 · CI/CD | 회원·인증 API와 프록시 구성<br/>Compose 레이어 분리<br/>변경 서비스 선별 배포 |
 | **[One-step](https://github.com/sohnsw95/One-step)** | 백엔드 | 회원·펫 성장·편지 API<br/>편지 매칭 정책과 수신 이력 처리 |
-| **한국대학교육협의회** | 시스템 운영·유지보수<br/>관련 업무 | 사용자 요청 분류와 요구사항 조율<br/>공시 데이터 검증<br/>매뉴얼·교육자료 제작 |
+| **[대학알리미](https://www.academyinfo.go.kr/index.do)** | 시스템 운영·유지보수<br/>관련 업무 | 사용자 요청 분류와 요구사항 조율<br/>공시 데이터 검증<br/>매뉴얼·교육자료 제작 |
 
 <br/>
 ## Projects
@@ -88,7 +88,7 @@
 
 ## 🚀 Experience
 
-### 🏢 한국대학교육협의회
+### 🏢 [대학알리미](https://www.academyinfo.go.kr/index.do)
 
 **대학정보공시 시스템 운영·유지보수 | 2020.12 ~ 2023.06**
 
